@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="flex flex-col justify-center overflow-hidden py-12">
+    <section id="contact" className="flex flex-col justify-center overflow-hidden py-12">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">My Contact</h2>
@@ -63,7 +63,7 @@ export default function Contact() {
               />
             </svg>
             <h3 className="font-semibold mb-2">GitHub</h3>
-            <p className="text-gray-500">https://github.com/B70804?tab=repositories</p>
+            <p className="text-gray-500">https://github.com/B70804</p>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import profilePic from '../assets/profile-pic.jpeg';
 
 export default function Home() {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-purple-50/50 dark:from-blue-950/20 dark:to-purple-950/20"></div>
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
         <img
@@ -17,12 +17,12 @@ export default function Home() {
           I'm a fresh graduate student that interested in Web Development
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="inline-flex justify-center items-center text-sm font-medium border-none rounded-md bg-violet-300 hover:bg-violet-400 text-white dark:text-black px-8 py-2">
+          <a href="#projects" className="inline-flex justify-center items-center text-sm font-medium border-none rounded-md bg-violet-300 hover:bg-violet-400 text-white dark:text-black px-8 py-2">
             View My Work
-          </button>
-          <button className="inline-flex justify-center items-center text-sm font-medium border rounded-md bg-white hover:bg-gray-200 dark:bg-transparent dark:hover:bg-gray-500 dark:text-white px-8 py-2">
+          </a>
+          <a href="#contact" className="inline-flex justify-center items-center text-sm font-medium border rounded-md bg-white hover:bg-gray-200 dark:bg-transparent dark:hover:bg-gray-500 dark:text-white px-8 py-2">
             Get In Touch
-          </button>
+          </a>
         </div>
       </div>
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">

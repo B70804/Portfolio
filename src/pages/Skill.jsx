@@ -15,7 +15,7 @@ const skills = [
 
 export default function Skill() {
   return (
-    <section className="flex flex-col justify-center overflow-hidden py-12">
+    <section id="skills" className="flex flex-col justify-center overflow-hidden py-12">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">Skills & Technologies</h2>

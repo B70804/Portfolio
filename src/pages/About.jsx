@@ -2,7 +2,7 @@ import studyPlacePic from '../assets/study-place.jpg';
 
 export default function About() {
   return (
-    <section className="bg-slate-100/30 dark:bg-slate-800/30 py-20">
+    <section id="about" className="bg-slate-100/30 dark:bg-slate-800/30 py-20">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
