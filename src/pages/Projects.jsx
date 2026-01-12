@@ -22,7 +22,7 @@ const projects = [
   },
   {
     title: "Purrfect Care",
-    description: "Pet services appointment booking platform (such as pet grooming, pet relocation etc)",
+    description: "Pet services appointment booking platform",
     image: PurrfectCareCover,
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     github: "",
