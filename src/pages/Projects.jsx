@@ -1,21 +1,32 @@
 import ProjectCard from "../components/ProjectCard";
+import PortfolioCover from "../assets/portfolio-cover.jpeg";
+import BookSwapCover from "../assets/bookswap_homepage_banner.png";
+import PurrfectCareCover from "../assets/purrfect-care-cover.png";
 
 const projects = [
   {
-    title: "BookSwap",
-    description: "Book exchange & donation platform",
-    image: "https://images.unsplash.com/photo-1476357471311-43c0db9fb2b4?w=600",
-    tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    github: "https://github.com/yourrepo",
-    live: "https://yourlive.com",
+    title: "Portfolio",
+    description: "My Personal Portfolio",
+    image: PortfolioCover,
+    tags: ["React", "Tailwind"],
+    github: "https://github.com/B70804/Portfolio",
+    live: "https://b70804.github.io/Portfolio/",
   },
   {
-    title: "Portfolio",
-    description: "Personal website",
-    image: "https://images.unsplash.com/photo-1476357471311-43c0db9fb2b4?w=600",
-    tags: ["React", "Tailwind"],
-    github: "#",
-    live: "#",
+    title: "BookSwap",
+    description: "Book exchange & donation platform",
+    image: BookSwapCover,
+    tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    github: "https://github.com/B70804/BookSwap",
+    live: "",
+  },
+  {
+    title: "Purrfect Care",
+    description: "Pet services appointment booking platform (such as pet grooming, pet relocation etc)",
+    image: PurrfectCareCover,
+    tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    github: "",
+    live: "",
   },
 ];
 

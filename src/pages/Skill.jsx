@@ -9,8 +9,8 @@ const skills = [
   { name: "Bootstrap", type: "Styling", level: 80 },
   { name: "JQuery", type: "Frontend", level: 70 },
   { name: "Java", type: "Backend", level: 60 },
+  { name: "Tailwind CSS", type: "Styling", level: 50 },
   { name: "React", type: "Frontend", level: 40 },
-  { name: "Tailwind CSS", type: "Styling", level: 40 },
 ];
 
 export default function Skill() {
@@ -21,7 +21,7 @@ export default function Skill() {
           <h2 className="text-4xl font-bold mb-4">Skills & Technologies</h2>
           <p className="text-xl max-w-3xl mx-auto">
             These are the technologies and tools I have learnt and currently
-            learning.
+            learning
           </p>
         </div>
 

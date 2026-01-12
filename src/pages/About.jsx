@@ -7,8 +7,7 @@ export default function About() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-xl max-w-3xl mx-auto">
-            I am a fresh graduate student with a strong interest in learning,
-            self-improvement, and building practical skills for my future career
+            I'm a fresh graduate driven by continuous learning, self-improvement, and the pursuit of practical experience to grow as a web developer
           </p>
         </div>
 

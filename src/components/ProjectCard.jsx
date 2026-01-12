@@ -1,7 +1,13 @@
-export default function ProjectCard({ image, title, description, tags, github, live }) {
+export default function ProjectCard({
+  image,
+  title,
+  description,
+  tags,
+  github,
+  live,
+}) {
   return (
     <div className="rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm overflow-hidden hover:shadow-xl transition-shadow group">
-
       <div className="relative overflow-hidden">
         <img
           src={image}
@@ -13,9 +19,14 @@ export default function ProjectCard({ image, title, description, tags, github, l
 
         <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity flex space-x-2">
           <a
-            href={github}
+            href={github || "#"}
             target="_blank"
-            className="inline-flex items-center justify-center h-9 w-9 rounded-md bg-white/90 hover:bg-white"
+            className={`inline-flex items-center justify-center h-9 w-9 rounded-md 
+              ${github 
+                ? "bg-white/90 hover:bg-white" 
+                : "bg-gray-300 cursor-not-allowed opacity-50"}
+            `}
+            onClick={(e) => !github && e.preventDefault()}
           >
             <svg
               viewBox="0 0 192 192"
@@ -34,9 +45,14 @@ export default function ProjectCard({ image, title, description, tags, github, l
           </a>
 
           <a
-            href={live}
+            href={live || "#"}
             target="_blank"
-            className="inline-flex items-center justify-center h-9 w-9 rounded-md bg-white/90 hover:bg-white"
+            className={`inline-flex items-center justify-center h-9 w-9 rounded-md 
+              ${live 
+                ? "bg-white/90 hover:bg-white" 
+                : "bg-gray-300 cursor-not-allowed opacity-50"}
+            `}
+            onClick={(e) => !live && e.preventDefault()}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
